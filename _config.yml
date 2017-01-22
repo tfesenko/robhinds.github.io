@@ -1,7 +1,7 @@
 # Site settings
-title: Rob Hinds
-twitter_username: rob_hinds
-name: Rob Hinds
+title: Tanya Fesenko
+twitter_username: tanya_fesenko
+name: Tanya Fesenko
 
 # Build settings
 markdown: kramdown
@@ -10,95 +10,75 @@ markdown: kramdown
 #Links that will appear in the navbar
 primarylinks:
  - title: Blog
-   url: http://automateddeveloper.blogspot.com/
+   url: https://tfesenko.com/
  - title: GitHub
-   url: https://github.com/robhinds
- - title: StackOverflow
-   url: http://stackoverflow.com/users/258813/rhinds
- - title: DZone
-   url: https://dzone.com/users/899489/rhinds.html
+   url: https://github.com/tfesenko
  - title: LinkedIn
    url: https://www.linkedin.com/pub/rob-hinds/21/361/3b1
 
 #Any buzzword skills you want to include
 skills:
- - Groovy
- - Spring MVC
- - Spring Boot
- - Gradle
  - Java
- - JPA
- - SQL
+ - Eclipse RCP
  - REST
- - Tech Architecture
+ - EMF
+ - Xtext
+
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default
+blogfeed: https://tfesenko.com/feed/
 
 #Work experience is required
 roles:
- - title: Senior Engineer
-   start: 2016
+ - title: Senior software developer and team leader
+   start: 2011
    end: Ongoing
-   employer: Emerald Street Ventures
-   description: Emerald Street Ventures was established as an incubator vehicle for the development of a number of software and legal-tech projects, and a rapidly growing, London-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Scala, Cassandra, CoreOS, a variety of Machine Learning techniques.
- - title: Senior Engineer
-   start: 2012
-   end: 2016
-   employer: Covestor
-   description: Covestor is an investment marketplace startup that was successfully acquired by Interactive Brokers in 2015. <br/> I am a senior engineer working closely with the CTO, working across the full-stack, I am involved in all aspects of the technology including the website and back-end services.
- - title: Associate Manager
-   start: 2005
-   end: 2012
-   employer: Accenture
-   description: A range of functional and technical roles, primarily working on client sites in Financial Services.
-
+   employer: ModelSolv, Inc.
+   description: I was the first programmer to work for ModelSolv. Since the time of my joining, the company now engages a global development team ranging in size from 5 to 8. I am developing an application for model interchange, the application already had three releases. My work includes software development, remote and onsite communication with the client on daily basis and managing the core team.
+ - title: Research engineer
+   start: 2010
+   end: 2011
+   employer: CEA LIST, France (http://www-list.cea.fr/)
+   description: My area of responsibility included the SysML Block Definition diagram editor, containment link implementation and advanced new diagram wizard. A month after joining CEA I became a representative and contributor of CEA at Eclipse Foundation as a committer at MDT project.
+ - title: Sr. R&D engineer(Java) 
+   start: 2006
+   end: 2010
+   employer: Prague branch of Borland Software Corp., Czech Republic (www.borland.com)
+   description: My roles included a developer, presenter (two speeches at EclipseCon 2008 at Santa Clara: one-hour tutorial, ten-minute talk), technical writer (wikipedia), customer support (answering newsgroup) and manager (reviewing requests, requirement analysis, writing reports).
+ - title: R&D engineer (Java)
+   start: 2003
+   end: 2006
+   employer: St. Petersburg branch of Borland Software Corp., Russia (www.borland.com)
+   description: BPMN diagram editor and BPEL export. Implementation of requirements management tools (RequisitePro & CaliberRM) and Together Designer integration, DOORS integration with Together Control Center, Design Pattern recognition prototype.
+   
+   
 #Education is required
 education:
- - level: Bachelor of Science (B.Sc.)
-   date: 2003
-   subject: Artificial Intelligence and Computer Science
-   school: University of Birmingham
+ - level: BMaster of Computer Science (graduated with honors)
+   date: 2005
+   subject: Mathematics and Computer Science
+   school: Saint-Petersburg State University, Russia (http://www.eng.spbu.ru/university/today/)
 
 #This section is optional (as is the image link below)
+# TODO Coursera does not publish completed courses in a publicly available form
+# TODO add other certificates
 coursera:
-   profileurl: https://www.coursera.org/user/i/c6362b4056f755a04bef6a791a62102b
+   profileurl: https://www.coursera.org/
    courses:
-    - title: Functional Programming Principles in Scala
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/progfun/small-icon.hover.png
-      date: September 16, 2013
-    - title: Algorithms Design and Analysis, Part 1
-      link: https://www.coursera.org/course/progfun
-      optionalimage: https://d1z850dzhxs7de.cloudfront.net/topics/algo/small-icon.hover.png
-      date: April 28, 2014
+    - title: Fundamentals of Project Planning and Management by University of Virginia on Coursera.
+      link: https://www.coursera.org/account/accomplishments/certificate/ARSZGHBDBAV8
+      date: December 3, 2016
+
 
 #List of interesting Github repo/projects to include - optional
 github:
- - robhinds/learning-neural-networks
- - robhinds/akka-http-rest-api-sample
- - robhinds/twitter-sentiment-analysis
- - robhinds/spring-reactor-twitter
- - robhinds/microservices
- - robhinds/spring-social-geeklist
- - robhinds/spring-social-stackoverflow
- - robhinds/food2vec
- - robhinds/SpringMongoIntegrationExample
- - robhinds/SpringNeo4JWebApp
- - robhinds/AndroidChuckQuiz
- - robhinds/AndroidRssReader
+ - RepreZen/SwagEdit
 
 #Stackoverflow flair is optional
 stackoverflow:
-   profileurl: http://stackoverflow.com/users/258813/rhinds
-   flairimageurl: http://stackoverflow.com/users/flair/258813.png
+   profileurl: https://stackoverflow.com/users/2068744/tanya
+   flairimageurl: http://stackoverflow.com/users/flair/2068744.png
 
-#Mobile apps section is optional
-apps:
- - name: Chuck the Quiz
-   platform: Android
-   url: https://play.google.com/store/apps/details?id=com.tmm.android.chuck&feature=search_result#?t=W251bGwsMSwxLDEsImNvbS50bW0uYW5kcm9pZC5jaHVjayJd
-   description: A basic early Android app (open sourced)
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
