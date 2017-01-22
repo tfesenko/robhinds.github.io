@@ -44,7 +44,7 @@ roles:
    start: 2006
    end: 2010
    employer: Prague branch of Borland Software Corp., Czech Republic (www.borland.com)
-   description: My roles included a developer, presenter (two speeches at EclipseCon 2008 at Santa Clara: one-hour tutorial, ten-minute talk), technical writer (wikipedia), customer support (answering newsgroup) and manager (reviewing requests, requirement analysis, writing reports).
+   description: "My roles included a developer, presenter (two speeches at EclipseCon 2008 at Santa Clara: one-hour tutorial, ten-minute talk), technical writer (wikipedia), customer support (answering newsgroup) and manager (reviewing requests, requirement analysis, writing reports)."
  - title: R&D engineer (Java)
    start: 2003
    end: 2006
