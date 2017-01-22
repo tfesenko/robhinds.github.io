@@ -23,6 +23,7 @@ skills:
  - REST
  - EMF
  - Xtext
+ - HTML/JavaScript
 
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
@@ -66,10 +67,10 @@ coursera:
    profileurl: https://www.coursera.org/
    courses:
     - title: Functional Programming Principles in Scala by École Polytechnique Fédérale de Lausanne on Coursera.
-      link: https://www.coursera.org/todo
+      link: https://github.com/tfesenko/tfesenko.github.io/blob/master/coursera_certs/Coursera_progfun_2017.pdf
       date: June 3, 2013
     - title: Programming Languages by University of Washington on Coursera.
-      link: https://www.coursera.org/todo
+      link: https://github.com/tfesenko/tfesenko.github.io/blob/master/coursera_certs/Coursera_proglang_2017.pdf
       date: December 24, 2013
     - title: "Learning How to Learn: Powerful mental tools to help you master tough subjects by University of California, San Diego on Coursera."
       link: https://www.coursera.org/todo
