@@ -63,7 +63,7 @@ education:
 #This section is optional (as is the image link below)
 # TODO Coursera does not publish completed courses in a publicly available form
 # TODO add other certificates
-coursera:
+moocs:
    profileurl: https://www.coursera.org/
    courses:
     - title: Fundamentals of Project Planning and Management by University of Virginia on Coursera.

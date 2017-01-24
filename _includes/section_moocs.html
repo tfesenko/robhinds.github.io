@@ -1,18 +1,18 @@
-{% if site.coursera %}
+{% if site.moocs %}
 	<div id="coursesBubble" class="rounded_panel txt_lightgrey">
 		<div class="top-rounded-panel grey-bg">
-			<h1>Coursera (<a target='_blank' href="{{site.coursera.profileurl}}">view profile</a>)</h1>
+			<h1>MOOCs</h1>
 		</div>
 		<div class="content-rounded-panel">
 			<div id="courseraPanel">
-				{% for course in site.coursera.courses %}
+				{% for course in site.moocs.courses %}
 				<div class="row">
 					{% if course.optionalimage %}
-						<div class="col-sm-5">
+						<div class="col-sm-3">
 							<img src="{{course.optionalimage}}">
 						</div>
 					{% endif %}
-					<div class="col-sm-6">
+					<div class="col-sm-9">
 						<a target='_blank' href="{{course.link}}">
 							{{course.title}}
 						</a><br/>
