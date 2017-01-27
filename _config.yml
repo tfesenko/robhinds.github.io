@@ -79,6 +79,12 @@ moocs:
       link: https://github.com/tfesenko/tfesenko.github.io/blob/master/coursera_certs/Coursera_progfun_2017.pdf
       date: June 3, 2013
 
+academic:
+   items:
+    - title: Reviewer of a master's thesis “Implementation of navigation services concept for Eclipse GMF.”
+      date: 2012
+    - title: "Coauthor of the article <a href='http://www.math.spbu.ru/user/dkoznov/papers/PavlinovKoznov2007.pdf'>“Analysis of development tools for Domain-specific Modeling languages”</a>."
+      date: 2007
 
 #List of interesting Github repo/projects to include - optional
 github:

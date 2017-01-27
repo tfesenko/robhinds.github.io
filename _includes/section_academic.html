@@ -1,0 +1,19 @@
+{% if site.academic %}
+	<div id="academicBubble" class="rounded_panel txt_lightgrey">
+		<div class="top-rounded-panel grey-bg">
+			<h1>Research and Academic Work</h1>
+		</div>
+		<div class="content-rounded-panel">
+			<div id="academicPanel">
+				{% for item in site.academic.items %}
+				<div class="row">
+					<div class="col-sm-12">
+						{{item.title}} </br>
+						<i>{{item.date}}</i>
+					</div>
+				</div><br/>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+{% endif %}
